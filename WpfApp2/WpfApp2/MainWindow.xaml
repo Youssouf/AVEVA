@@ -7,11 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button x:Name="btn_click" Content="Click Me now !" Background="Azure" FontSize="18" HorizontalAlignment="Left" Margin="189,80,0,0" VerticalAlignment="Top" Width="178" Height="73"/>
+        <Button x:Name="btn_click" Content="Click Me now !" Background="Azure" FontSize="18" HorizontalAlignment="Left" Margin="213,80,0,0" VerticalAlignment="Top" Width="178" Height="73"/>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="247,194,0,0" Background="Cyan" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="247,235,0,0" TextWrapping="Wrap" Background="Cyan" VerticalAlignment="Top" Height="28" Width="120"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="247,238,0,0" TextWrapping="Wrap" Background="Cyan" VerticalAlignment="Top" Height="28" Width="120"/>
         <Label x:Name="label" Content="First Name" FontSize="15" HorizontalAlignment="Left" Height="31" Margin="86,194,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="label_Copy" Content="Last Name" FontSize="15" HorizontalAlignment="Left" Height="33" Margin="86,230,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label_Copy" Content="Last Name" FontSize="15" HorizontalAlignment="Left" Height="33" Margin="86,233,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="247,276,0,0" TextWrapping="Wrap" Background="Cyan" VerticalAlignment="Top" Height="28" Width="120"/>
+        <Label x:Name="label_Copy1" Content="Age" FontSize="15" HorizontalAlignment="Left" Height="33" Margin="86,271,0,0" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
