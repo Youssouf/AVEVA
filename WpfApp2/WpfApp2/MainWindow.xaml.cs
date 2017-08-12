@@ -24,5 +24,10 @@ namespace WpfApp2
         {
             InitializeComponent();
         }
+
+        private void btn_click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
